@@ -1,0 +1,32 @@
+" map jj to escape key
+ino jj <Esc> " single trailing space to keep cursor in position
+
+set vb                            " turns off visual bell
+set pastetoggle=<F3>              " toggle paste mode on and off with F3
+set hidden                        " Don't make me save files before switching
+set laststatus=2                  " Always show status line
+set showcmd                       " display incomplete commands
+
+set wildmenu                      " Enhanced command line completion.
+set wildmode=list:longest         " Complete files like a shell.
+
+" solarized color scheme
+let g:solarized_termcolors=256
+set t_Co=16
+set background=dark
+colorscheme solarized
+
+no <Leader>non :set nu<CR>        " toggle line numbers on
+no <Leader>noff :set nu!<CR>      " and off
+
+nn <leader>l :set list!<CR>       " toggle non-printable chars on and off
+set listchars=""                  " Reset the listchars
+set listchars=tab:▸\ ,eol:¬       " a tab should display as "▸", trailing whitespace as "."
+set listchars+=trail:.            " show trailing spaces as dots
+set listchars+=extends:>          " The character to show in the last column when wrap is
+                                  " off and the line continues beyond the right of the screen
+set listchars+=precedes:<         " The character to show in the last column when wrap is
+                                  " off and the line continues beyond the right of the screen
+set nolist                        " turn non-printable chars off to being with
+
+
