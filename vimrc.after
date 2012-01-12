@@ -1,5 +1,5 @@
 " map jj to escape key
-ino jj <Esc> " single trailing space to keep cursor in position
+ino jj <Esc>
 
 set vb                            " turns off visual bell
 set pastetoggle=<F3>              " toggle paste mode on and off with F3
