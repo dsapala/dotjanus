@@ -13,7 +13,8 @@ set wildmode=list:longest         " Complete files like a shell.
 " solarized color scheme
 let g:solarized_termcolors=256
 set t_Co=16
-set background=dark
+" set background=dark
+set background=light
 colorscheme solarized
 
 no <Leader>non :set nu<CR>        " toggle line numbers on
