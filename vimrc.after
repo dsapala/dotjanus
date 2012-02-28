@@ -30,4 +30,6 @@ set listchars+=precedes:<         " The character to show in the last column whe
                                   " off and the line continues beyond the right of the screen
 set nolist                        " turn non-printable chars off to being with
 
+" remove the 'Insert the current directory into a command-line path' mapping so I can use ctrl-p for previous commands
+cu <C-P>
 
