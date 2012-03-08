@@ -46,6 +46,8 @@ no <silent><Leader>cs :nohls<CR>   " clear search highlights
 " use sane regexes
 nn / /\v
 vn / /\v
+nn ? ?\v
+vn ? ?\v
 
 " easy split navigation
 " interferes with excellent up/down line swapping
